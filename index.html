@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Traveloko</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-dark px-0">
+            <div class="row gx-0">
+                <div class="col-lg-3 bg-dark d-none d-lg-block">
+                    <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                        <h1 class="m-0 text-primary text-uppercase">Traveloko</h1>
+                    </a>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row gx-0 bg-white d-none d-lg-flex">
+                        <div class="col-lg-7 px-5 text-start">
+                            <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                                <i class="fa fa-envelope text-primary me-2"></i>
+                                <p class="mb-0">hoangkhhoi1805@example.com</p>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-2">
+                                <i class="fa fa-phone-alt text-primary me-2"></i>
+                                <p class="mb-0">+012 345 6789</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 px-5 text-end">
+                            <div class="d-inline-flex align-items-center py-2">
+                                <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="" href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                        <a href="index.html" class="navbar-brand d-block d-lg-none">
+                            <h1 class="m-0 text-primary text-uppercase">Traveloko</h1>
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto py-0">
+                                <a href="index.html" class="nav-item nav-link active">Home</a>
+                                <a href="#" class="nav-item nav-link">About</a>
+                                <a href="#" class="nav-item nav-link">Services</a>
+                                <a href="#" class="nav-item nav-link">Tour</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="#" class="dropdown-item">Booking</a>
+                                        <a href="#" class="dropdown-item">Our Team</a>
+                                        <a href="#" class="dropdown-item">Testimonial</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="nav-item nav-link">Contact</a>
+                                <a href="#" class="nav-item nav-link">Log in</a>
+                                <h6><span class="bg-white">Notifacation</span><span class="badge bg-danger"> 2</span></h6>
+                                </div>
+                            <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-2 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown">Discover a tour to Da Lat</h1>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Tour info</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book a tour</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown">Discover a tour to Da Lat</h1>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Tour info</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book a tour</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Booking Start -->
+        <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="bg-white shadow" style="padding: 35px;">
+                    <div class="row g-2">
+                        <div class="col-md-10">
+                            <div class="row g-2">
+                                <div class="col-md-3">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input"
+                                            placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="date" id="date2" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="form-select">
+                                        <option selected>Adult</option>
+                                        <option value="1">Adult 1</option>
+                                        <option value="2">Adult 2</option>
+                                        <option value="3">Adult 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="form-select">
+                                        <option selected>Child</option>
+                                        <option value="1">Child 1</option>
+                                        <option value="2">Child 2</option>
+                                        <option value="3">Child 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-primary w-100">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
+                        <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Traveloko</span></h1>
+                        <p class="mb-4">Địa điểm vui chơi Đà Lạt với những cảnh vật nên thơ cùng không khí trong lành luôn thu hút đông đảo khách du lịch quanh năm. Hãy cùng Traveloko khám phá địa điểm du lịch Đà Lạt đẹp và đáng khám phá nhất trong năm 2022 nhé!</p>
+                        <div class="row g-3 pb-4">
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="border rounded p-1">
+                                    <div class="border rounded text-center p-4">
+                                        <i class="fa fa-hotel fa-2x text-primary mb-2"></i>
+                                        <h2 class="mb-1" data-toggle="counter-up">950</h2>
+                                        <p class="mb-0">Tour</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="border rounded p-1">
+                                    <div class="border rounded text-center p-4">  
+                                        <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
+                                        <h2 class="mb-1" data-toggle="counter-up">10000</h2>
+                                        <p class="mb-0">Staffs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="border rounded p-1">
+                                    <div class="border rounded text-center p-4">
+                                        <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                                        <h2 class="mb-1" data-toggle="counter-up">2500</h2>
+                                        <p class="mb-0">Clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Explore More</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Room Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">Room info</h6>
+                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Rooms</span></h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="picture1.jpg" alt="">
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$94.91/Night</small>
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">D.E Resort</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                </div>
+                                <p class="text-body mb-3">Với tầm nhìn bao quát ra các khu rừng và hồ nước, Dalat Edensee Lake Resort & Spa cung cấp chỗ ở 5 sao sang trọng với Wi-Fi miễn phí và bể sục riêng. Tại đây có các sân gôn mô phỏng, rạp chiếu phim và phòng hút xì gà.</p>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-primary rounded py-2 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1">
+                                        Details
+                                      </button>   
+                                        <div class="collapse" id="collapseWidthExample1">
+                                          <div class="card card-body" style="width: 20px,50;">
+                                            Với ban công riêng có tầm nhìn đẹp mắt, các phòng nghỉ trang nhã được trang bị TV màn hình phẳng và ghế bành thoải mái. Các phòng tắm rộng rãi đều có bồn tắm và áo choàng tắm.
+                                          </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="picture2.jpg" alt="">
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$70.17/Night</small>
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0"> LADALAT Hotel</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                </div>
+                                <p class="text-body mb-3">Mỗi phòng nghỉ tại khách sạn đều được trang bị tủ để quần áo, TV màn hình phẳng, phòng tắm riêng, ga trải giường và khăn tắm. Tất cả các phòng có ấm đun nước trong khi một số phòng đi kèm bếp với lò vi sóng, tủ lạnh cùng lò nướng.</p>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-primary rounded py-2 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample2">
+                                        Details
+                                      </button>   
+                                        <div class="collapse" id="collapseWidthExample2">
+                                          <div class="card card-body" style="width: 20px,50;">
+                                            LADALAT Hotel phục vụ bữa sáng kiểu Á hàng ngày và cung cấp chỗ nghỉ 5 sao có hồ bơi trong nhà và sân chơi cho trẻ em.
+                                          </div>
+                                        </div>
+                            
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/room-3.jpg" alt="">
+                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$158.85/Night</small>
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">D.P Herritage hotel</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                </div>
+                                <p class="text-body mb-3">Các phòng nghỉ có thiết kế mở tại Palace Dalat trang nhã với lối trang trí kiểu thuộc địa Pháp của những năm 1920 và sàn gỗ cứng. Mỗi phòng đều được trang bị minibar, TV và tiện nghi pha cà phê/trà. Khách sạn cũng cung cấp dịch vụ phòng 24 giờ.</p>
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-primary rounded py-2 px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
+                                        Details
+                                      </button>   
+                                        <div class="collapse" id="collapseWidthExample3">
+                                          <div class="card card-body" style="width: 20px,50;">
+                                            Khách sạn có các sân tennis và sân chơi ngoài trời cho trẻ em. Khách có thể rèn luyện sức khỏe tại trung tâm thể dục hoặc ghé vào spa để tận hưởng liệu pháp mát-xa thư giãn.
+                                          </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Room End -->
+
+
+        <!-- Video Start --> 
+        <div class="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-12 bg-dark d-flex align-items-center">  
+                    <div class="p-5">
+                        <h6 class="section-title text-start text-white text-uppercase mb-3">Luxury Living</h6>
+                        <h1 class="text-white mb-4">Discover A Brand Luxurious Tour</h1>
+                        <p class="text-white mb-4">Có thể nói, Đà Lạt là thiên đường trong mộng của các tín đồ mê du lịch với rất nhiều phong cảnh lãng mạn không kém phần độc đáo</p>
+
+                        <p class="text-white mb-4"><span class="bg-danger">Cầu gỗ săn mây Đà Lạt</span>: Đây là một địa điểm chill mới toanh của Đà Lạt. Cầu gỗ nằm giữa không gian hoang dã của núi rừng Đà Lạt. Đặc biệt cầu gỗ được nhuốm màu của những cơn gió khiến cho vẻ đẹp của cây cầu gỗ săn mây trở nên hoang dã hơn. Vào buổi sáng sớm tinh mơ, những màn sương mờ ảo bao quanh những áng mây như trong khu rừng kì bí. Thả hồn vào gió hưởng thụ những áng mây trôi bềnh bồng phiêu lãng, đứng trên cầu gỗ cảm tưởng như bạn đang đứng trên một biển mây vậy. </p>
+                        <p class="text-white mb-4"><span class="bg-danger">Vườn Thú ZooDoo Đà Lạt</span>: Nơi đây được phát triển theo mô hình vườn thú mở kiểu Úc thú vị. Bạn có thể ngồi uống cafe tại ZooDoo ngắm kangaroo, ngựa lùn, cừu, hay lạc đà Alpaca,... Hoặc có thể trải nghiệm cảm giác gần gũi, cho chúng ăn, vuốt ve những động vật đáng yêu này. </p>
+                        <p class="text-white mb-4"><span class="bg-danger">Ga Đà Lạt</span>: Đây là nhà ga cổ nhất Đông Dương còn sót lại. Bạn có thể chụp hình cùng những toa tàu, đường ray, đường hầm hoả xa. Những góc hình khác nhau sẽ giúp bạn khám phá những nét đẹp tuyệt vời của nhà ga cổ này. </p>
+                        <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Tour info</a>
+                        <a href="" class="btn btn-light py-md-3 px-md-5">Book a tour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Advertisement</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video Start -->
+
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">Our Services</h6>
+                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Services</span></h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-hotel fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">Tour</h5>
+                            <p class="text-body mb-0">Một ngày tham quan nông thôn, cách tốt nhất để xem người dân địa phương, thác nước và thưởng thức cà phê bằng xe riêng</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-utensils fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">Food & Restaurant</h5>
+                            <p class="text-body mb-0">Nhà hàng các khách sạn là nơi du khách có thể thưởng thức tuyển chọn các món ăn Pháp và rượu vang, đồng thời mở cửa phục vụ bữa sáng, bữa trưa cũng như bữa tối. Đối với đồ uống và đồ ăn nhẹ, Palace Club là một lựa chọn ăn uống nữa cho khách thưởng thức trà cung đình độc đáo của Đà Lạt..</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-spa fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">Spa & Fitness</h5>
+                            <p class="text-body mb-0">Spa Total Fitness Centre là cơ sở thể dục lớn nhất của PEI. Từ phòng tập thể dục, hồ bơi và đường đi bộ, đến sân bóng quần, tennis và bóng vợt của chúng tôi, chúng tôi có một cái gì đó cho tất cả mọi người.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-swimmer fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">Sports & Gaming</h5>
+                            <p class="text-body mb-0">Có rất nhiều loại trung tâm thể thao khác nhau xung quanh thành phố Đà Lạt. Câu lạc bộ sức khỏe với phòng tập thể dục, sân tennis & cầu lông, sân chơi bowling, hồ bơi ấm áp, trung tâm Yoga và thậm chí cả câu lạc bộ golf. Nhiều nơi sẽ có một số hoạt động khác nhau được cung cấp.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-glass-cheers fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">Events</h5>
+                            <p class="text-body mb-0">Vườn Ánh Sáng Lumiere là địa điểm vui chơi Đà Lạt với không gian tráng lệ và lung linh. Bởi kiến trúc nơi đây được tạo nên từ những chùm ánh sáng lung linh. Các chùm, dây đèn được kết hợp hài hòa với các màn chiếu tạo đa dạng nên nhiều không gian ánh sáng khác nhau. Ở đây có tất cả 9 phòng trưng bày ánh sáng nghệ thuật với nhiều chủ đề khác nhau. </p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <a class="service-item rounded" href="">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-dumbbell fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3">GYM & Yoga</h5>
+                            <p class="text-body mb-0">Tòa nhà GYM & YOGA center ở khu vực bãi biển cao tầng đa chức năng cao 5 tầng với các tiện ích, tiện nghi & dịch vụ 5 sao, nằm ngay tại bãi biển xinh đẹp của thành phố Đà Lạt.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="owl-carousel testimonial-carousel py-5">
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Khách sạn trang trí đẹp, chuẩn 5 sao.
+                            Phòng rộng rãi, sạch sẽ và thoải mái. Nhân viên lễ tân và tất cả nhân viên khách sạn, các bạn hỗ trợ rất nhiệt tình yêu cầu của khách.
+                            Đầu bếp nấu vị vừa ăn, ngon miệng.
+                            Gia đình nếu quay lại Đà Lạt sẽ lưu trú tại khách sạn lần nữa.
+                            </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Tuyet</h6>
+                                <small>Tourist</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Các bạn nhân viên tiếp đón khách rất thân thiện. Hỗ trợ nhiệt tình và vui vẻ. Ks trang trí Noel rất đẹp. Cafe tầng thượng view thung lũng nhìn hay chụp hình đều rất mộng mơ</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Kiet</h6>
+                                <small>Tourist</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Nhân viên tuy chưa chuyên nghiệp nhưng rất thân thiện, luôn vui vẻ mỉm cười và nhiệt tình với khách. Chỉ việc nhỏ cần cải thiện thôi là nhân viên nên nhỏ tiếng với nhau khi có khách ở phòng ăn!
+                            Phòng óc sạch sẽ có lót thảm giúp giảm tiếng ồn và ấm áp hơn với thời tiết ở đà lạt.
+                            Cafe sân thượng có vườn rau rất dễ thương.
+                            Vị trí thuận tiện.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Hong</h6>
+                                <small>Tourist</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">Our Team</h6>
+                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Staffs</span></h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Ryan</h5>
+                                <small>Owner</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Joe</h5>
+                                <small>Staff</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Ryan</h5>
+                                <small>Staff</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Newsletter Start -->
+        <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 border rounded p-1">
+                    <div class="border rounded text-center p-1">
+                        <div class="bg-white rounded text-center p-5">
+                            <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                                <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="bg-primary rounded p-4">
+                            <a href="index.html"><h1 class="text-white text-uppercase mb-3">Traveloko</h1></a>
+                            <p class="text-white mb-0">
+								Download Traveloko – Premium Version build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
+							</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="row gy-5 g-4">
+                            <div class="col-md-6">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
+                                <a class="btn btn-link" href="">About Us</a>
+                                <a class="btn btn-link" href="">Contact Us</a>
+                                <a class="btn btn-link" href="">Privacy Policy</a>
+                                <a class="btn btn-link" href="">Terms & Condition</a>
+                                <a class="btn btn-link" href="">Support</a>
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
+                                <a class="btn btn-link" href="">Food</a>
+                                <a class="btn btn-link" href="">Transportation</a>
+                                <a class="btn btn-link" href="">Hotel</a>
+                                <a class="btn btn-link" href="">Event & Party</a>
+                                <a class="btn btn-link" href="">Suprises</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                            <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
